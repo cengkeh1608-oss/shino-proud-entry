@@ -72,3 +72,22 @@ all of it, holding nothing up."
   3 finalis diadu melawan 3 teks pemenang resolved (brave #1, held #1, awe #1).
 - Tulis main.ts (≥2 pesan write/edit), verifikasi deterministik 2x dari cwd
   berbeda, git init + commit + push, lapor ke parent.
+
+## 6. SELESAI — submit-ready (25 Nov ~23:05 WIB)
+- 28 draf (semua 2 baris, 228–276 karakter, valid ≤280). Turnamen top-8
+  round-robin: D1 Sepeda 7-0, D26 Lagu tidur 6-1, D17 Kue terakhir 5-2.
+  Finalis diperbaiki (D1→D1b 273 karakter, D17→D17b 273 karakter) lalu
+  diadu vs pemenang resolved: D1b vs brave #1 MENANG tipis (kesesuaian tema
+  "proud"), D26 vs held #1 MENANG tipis (kriteria lucu), D17b vs brave #6
+  MENANG tipis (heartfelt dua arah). Pilihan: D1b.
+- main.ts ditulis dalam 2 pesan (write + edit validasi gate yang benar-benar
+  mengubah isi). Tanpa process.env/eval/Function/vm/dynamic import.
+  Output /output/entry.txt deterministik byte-identical 2x dari cwd berbeda,
+  sha256 c22a69699295c06e2916a9e518224fee5e21c3f560e94a51d478369685d33b02.
+- Commit 2851e7c14b8894643b3551a31dd34fe7b8fac823 (LICENSE, drafts.md,
+  main.ts, package.json, progress.md). Repo:
+  https://github.com/cengkeh1608-oss/shino-proud-entry — HEAD == origin
+  terverifikasi.
+- gh repo create sempat gagal 1x (error GraphQL transient), retry setelah
+  20 dtk BERHASIL. Execution-risk flags: 0.
+- TIDAK submit (tugas parent: bundle + submit).
